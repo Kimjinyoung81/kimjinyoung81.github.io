@@ -1,0 +1,99 @@
+@import url(reset.css);
+
+body{background: #f2f2f2;}
+.wrap{width: 100%;}
+
+
+/* header */
+.wrap .header{width: 100%; height: 58px;background-color: #00c73c; border-bottom: 1px solid #00a732;}
+
+.wrap .header{width: 100%; height: 58px; line-height: 58px;}
+.header h1{padding: 20px 20px; float: left; width: 30%;}
+.header .logo{display: block; float: left; background: url('../img/sp_deskhome_gnb_170308.png') no-repeat 0 -73px;width: 55px; height: 12px; text-indent: -9999px;}
+.header .meno{display: block; float: left; margin-left: 10px; margin-top: -5px; background: url('../img/sp_deskhome_gnb_170308.png') no-repeat 0 -173px; width: 42px; height: 24px; text-indent: -9999px;}
+
+.header .gnb_list{float: left; width: 40%; margin:15px auto; }
+.gnb_list li{float: left; display:inline-block; margin: auto; text-align: center;}
+
+.gnb_list .me{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat  0 -4px; width: 25px;height: 25px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .mail{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat -49px -3px; width: 26px; height: 26px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .calendar{background: url('../img/sp_deskhome_gnb_170308.png')no-repeat -147px -4px;
+width: 25px; height: 25px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .memo{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat -196px -37px; width: 25px;height: 25px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .contact{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat -245px -4px;width: 27px; height: 25px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .ndrive{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat -292px -5px;width: 29px; height: 23px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .office{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat -343px -4px;width: 25px;height: 25px; padding: 0 8px; text-indent: -9999px;}
+.gnb_list .moneybook{background: url('../img/sp_deskhome_gnb_170308.png') no-repeat -434px -3px;width: 29px;height: 26px; padding: 0 8px; text-indent: -9999px;}
+
+.header .gnb_right{float: right; margin: auto;}
+.gnb_right .logbtn{display: block; float: left; padding: 1px 12px; border: 1px solid #00b035; font-size: 11px; text-align: center; line-height: 25px; margin-top: 15px; margin-right: 15px;}
+.gnb_right .logbtn a{color:#fff;}
+.gnb_right .btn_right{width: 58px; height: 45px; float:right; border-left: 1px solid #00b035; }
+.gnb_right .btn_right a.btn_more{display: block; background: url('../img/sp_gnb_v12.png') no-repeat -60px -30px; width: 16px;height: 16px; text-indent: -9999px; margin: auto; margin-top: 20px;}
+
+/* container */
+.container{clear: both; width: 1025px; margin: 15px auto;}
+.container .contans{float: left; width: 730px; background: #fff; border:1px solid #dbdbdb; border-radius: 5px;}
+.container .contans .contans_section{width: 672px; margin: auto; }
+.contans_section .h_memo{height:100px; border-bottom: 1px solid #e3e3e3;}
+.contans_section .h_memo h3{background: url('../img/sp_login_memo_1704.png') no-repeat 0 0;width: 255px;
+height: 61px; text-indent: -9999px; margin-top: 35px;}
+
+.banner_area{margin:25px auto; text-align: center;}
+.down_area{width: 100%; margin-top: 50px; }
+.yline{float: left; margin-top: 26px; border-right: 1px solid #e3e3e3; width: 1px; height: 60px; margin-right: 13px;}
+.down_area .app{width: 33%; display: block; background: url('../img/sp_login_memo_1704.png') no-repeat 0 -100px;width: 212px;height: 110px; float: left; text-indent: -9999px; }
+.down_area .pc_mobile{width: 33%; display: block; background: url('../img/sp_login_memo_1704.png') no-repeat 0 -220px; width: 212px; height: 110px; float: left; text-indent: -9999px;}
+.down_area .window{width: 33%; display: block; background: url('../img/sp_login_memo_1704.png') no-repeat 0 -340px;width: 218px;height: 110px; float: left; text-indent: -9999px;}
+
+
+/* right aside */
+.container .contans_notice{float: right; width: 280px;}
+
+.contans_notice .login_box{width: 100%; height: 120px; border:1px solid #dbdbdb; border-radius: 3px;}
+
+.login_box .con_center{width: 90%; margin: auto;}
+.login_box .slogan{width: 100%; margin: 10px 0; font-size: 11px; color: #929292;}
+.login_box .btn_inner{width: 100%; height: 36px; background: #fff; border: 1px solid #dbdbdb; border-radius: 2px; }
+.con_center .btn_inner a{display: block; background: url('../img/sp_login_140527.png') no-repeat 0 -308px; width: 93px; height: 14px; text-indent: -9999px; margin: 10px auto;}
+
+.con_center .forgot{margin-top:14px; font-size: 11px;}
+.con_center .forgot a{color: #666;}
+.forgot a.register{float: right;}
+.notic_area{width: 100%; margin-top:7px; margin-bottom: 5px;}
+
+.notic_area li a{background: url('../img/sp_login_140527.png') no-repeat -211px -53px; width: 2px; height: 18px;  line-height: 24px; padding-left: 10px; color: #000;}
+
+.comment_area{width: 100%; height: 330px; background: #fff; border:1px solid #d6d6d6; border-radius: 3px; overflow: hidden; z-index: 20;}
+
+.comment_area .bx-wrapper .bx-prev{position:absolute !important; top: -12px; left:221px; background: url('../img/sp_login_140527.png') no-repeat -20px -70px;width: 23px;height: 22px;text-indent: -9999px; z-index: 1000!important;}
+.comment_area .bx-wrapper .bx-next {position:absolute !important; top: -12px;
+  right: 14px; background: url('../img/sp_login_140527.png') no-repeat -43px -70px;width: 22px;height: 22px;text-indent: -9999px; margin-left: -5px; z-index: 1000 !important;}
+
+.box_comment{height: 34px; background: #fff; border-bottom: 1px solid #d6d6d6;}
+
+.box_comment .h_comment{float: left; background: url('../img/sp_login_memo_1704.png') no-repeat 0 -67px; width: 123px; height: 15px; text-indent: -9999px; margin-top: 10px; margin-left:12px;}
+
+.comment_lst ul li{height: 50px; border-bottom:1px solid #d6d6d6;padding-left: 15px; padding-right: 15px; display: inline-block; margin-top: 10px; box-sizing: border-box;} 
+.comment_lst ul li .icon{display: block; float: left;background:url('../img/sp_login_140527.png') no-repeat -80px -50px; width: 22px; height: 22px; text-indent: -9999px; margin-top:10px; margin-right: 6px; }
+.comment_lst ul li a{display: block; padding-left: 10px; font-weight: bold; color:#000; letter-spacing: -1px;}
+.banner{margin-top: 10px;}
+
+.footer{clear: both; height: 120px; line-height: 120px; margin: auto; text-align: center; font-size: 10px; font-weight: normal;}
+
+.footer a{color:#00b035; font-weight: bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
